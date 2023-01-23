@@ -1,0 +1,46 @@
+.contact_back {
+  background-image: url(./images/IMAGE.png);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact_block {
+  padding-bottom: 100px;
+}
+
+.contact_block__container {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+@media (max-width: 600px) {
+  .contact_block__container {
+    flex-direction: column;
+  }
+}
+
+.contact_block_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  color: #52503B;
+}
+
+.contact_block_text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #52503B;
+}
+
+.contact_block_desc .desc_items img {
+  width: 36px;
+  height: 34px;
+}/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,15 @@
+.peculiarity{
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+.peculiarity_items{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  @media (max-width:450px) {
+    flex-direction: column;
+  }
+}
+.item{
+  margin: auto;
+}

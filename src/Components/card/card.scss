@@ -1,0 +1,42 @@
+.card{
+  background-color: #FAF8F0;
+  padding-top: 138px;
+  padding-bottom: 100px;
+}
+.card__container{
+  .card_content{
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    h2{
+      padding-bottom: 24px;
+    }
+    p{
+      padding-bottom: 24px;
+    }
+  }
+}
+.card__buttons{
+  display: flex;
+  button{
+    margin: auto;
+  }
+}
+.btn2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+      padding: 11px 20px;
+      border: 2px solid var(--accent-color);
+      background-color: transparent;
+      color: var(--accent-color);
+      transition: background-color .2s ;
+      cursor: pointer;
+      @media (max-width:576px) {
+          padding: 7px 15px;
+      }
+      &:hover{
+        background-color: var(--accent-color);
+        color: var(--text-color);
+      }
+}

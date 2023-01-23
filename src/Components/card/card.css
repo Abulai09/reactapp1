@@ -1,0 +1,45 @@
+.card {
+  background-color: #FAF8F0;
+  padding-top: 138px;
+  padding-bottom: 100px;
+}
+
+.card__container .card_content {
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+.card__container .card_content h2 {
+  padding-bottom: 24px;
+}
+.card__container .card_content p {
+  padding-bottom: 24px;
+}
+
+.card__buttons {
+  display: flex;
+}
+.card__buttons button {
+  margin: auto;
+}
+
+.btn2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 11px 20px;
+  border: 2px solid var(--accent-color);
+  background-color: transparent;
+  color: var(--accent-color);
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .btn2 {
+    padding: 7px 15px;
+  }
+}
+.btn2:hover {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}/*# sourceMappingURL=card.css.map */
